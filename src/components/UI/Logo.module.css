@@ -1,0 +1,18 @@
+.logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    rgba(231, 129, 107, 0.0001) 0deg,
+    #e7816b 359.74deg,
+    rgba(231, 129, 107, 0.0001) 360deg
+  );
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+}

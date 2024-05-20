@@ -1,0 +1,26 @@
+.button {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--white);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  width: 9.5rem;
+  height: 3.5rem;
+  align-self: center;
+  color: var(--black);
+}
+
+.button:hover {
+  background: var(--light-peach);
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .button {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,15 @@
+.app {
+  padding-top: 6rem;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .app {
+    padding: 6rem 2.5rem 0 2.5rem;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .app {
+    padding: 6rem 3rem 0 3rem;
+  }
+}

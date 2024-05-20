@@ -1,0 +1,109 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5rem;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 0 1.5rem;
+  margin-top: 7.5rem;
+}
+
+.advantages-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.advantages-card h3 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.advantages-card p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.svg-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-background {
+  position: absolute;
+  width: 12.625rem;
+  height: 12.625rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.passionate {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  opacity: 0.6;
+}
+
+.resourceful {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  opacity: 0.4;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.friendly {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+
+  opacity: 0.4;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+@media all and (min-width: 768px) {
+  .advantages-card {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+  .text-container {
+    text-align: left;
+    gap: 1rem;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .advantages {
+    flex-direction: row;
+    gap: 1.875rem;
+  }
+
+  .advantages-card {
+    flex-direction: column;
+  }
+
+  .text-container {
+    text-align: center;
+    gap: 1rem;
+  }
+}

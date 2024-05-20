@@ -1,0 +1,41 @@
+.header {
+  padding: 6.5625rem 1.5rem;
+  background: url("../../../assets/shared/header-background.png");
+  text-align: center;
+  width: 100%;
+  color: var(--white);
+  margin-bottom: 6rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.header p {
+  line-height: 1.5rem;
+  font-size: 0.9375rem;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    background: url("../../../assets/shared/header-tablet-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    padding: 4rem 1.5rem;
+    margin-top: 1rem;
+  }
+  .header h2 {
+    font-size: 3rem;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    background: url("../../../assets/shared/desktop/header-desktop-bg.png");
+    background-size: cover;
+  }
+}

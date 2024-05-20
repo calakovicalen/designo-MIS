@@ -1,0 +1,12 @@
+.media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .media {
+    align-self: flex-end;
+  }
+}

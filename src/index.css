@@ -1,0 +1,16 @@
+:root {
+  --peach: #e7816b;
+  --light-peach: #ffad9b;
+  --black: #1d1c1e;
+  --dark-grey: #333136;
+  --light-grey: #f1f3f5;
+  --white: #ffffff;
+  --footer-card-height: 23.625rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}

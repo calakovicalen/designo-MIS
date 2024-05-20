@@ -1,0 +1,17 @@
+.button {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white);
+  background: var(--peach);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--light-peach);
+  color: var(--white);
+  transition: all 0.3s;
+}

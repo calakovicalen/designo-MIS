@@ -1,0 +1,125 @@
+.design-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  text-transform: uppercase;
+  border-radius: 1rem;
+  height: 250px;
+  width: 327px;
+}
+
+.web {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/home/mobile/image-web-design.jpg");
+}
+
+.app {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/home/mobile/image-app-design.jpg");
+}
+
+.graphic {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/home/mobile/image-graphic-design.jpg");
+}
+
+.design-card h3 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  letter-spacing: 1.4px;
+}
+
+.design-card p {
+  font-weight: 500;
+  letter-spacing: 0.3125rem;
+}
+
+@media all and (min-width: 768px) {
+  .design-card {
+    width: 100%;
+  }
+
+  a {
+    width: 100%;
+  }
+
+  .web {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/tablet/image-web-design.jpg");
+    background-size: cover;
+  }
+
+  .app {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/tablet/image-app-design.jpg");
+    background-size: cover;
+  }
+
+  .graphic {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/tablet/image-graphic-design.jpg");
+    background-size: cover;
+  }
+
+  .design-card h3 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .web {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/desktop/image-web-design-large.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+
+  .web:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url("../../../assets/home/desktop/image-web-design-large.jpg");
+    background-size: cover;
+    transition: all 0.2s;
+  }
+
+  .app {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/desktop/image-app-design.jpg");
+    background-size: cover;
+  }
+
+  .app:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url("../../../assets/home/desktop/image-app-design.jpg");
+    background-size: cover;
+    transition: all 0.2s;
+  }
+
+  .graphic {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/home/desktop/image-graphic-design.jpg");
+    background-size: cover;
+  }
+
+  .graphic:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url("../../../assets/home/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    transition: all 0.2s;
+  }
+}

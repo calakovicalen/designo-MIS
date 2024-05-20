@@ -1,0 +1,24 @@
+.locations-gallery {
+  padding: 7.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.item-container h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 3rem 0 2rem 0;
+}
+
+@media all and (min-width: 1024px) {
+  .locations-gallery {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
